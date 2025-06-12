@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Fondo MRBEAST.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+img {
+  width: 150px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+a {
+  display: block;
+  margin: 20px auto;
+  padding: 15px;
+  width: 80%;
+  max-width: 400px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
